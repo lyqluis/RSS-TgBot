@@ -1,0 +1,19 @@
+# RSS Feed Configuration
+# This file contains the list of RSS feeds that the bot will monitor
+# Keep sensitive data like tokens in .env file
+
+# RSS Hub base URL
+rssHubUrl: "http://localhost:1200"
+
+# Check interval in hours
+checkInterval: 12 # hour
+
+# Optional start time in HH:mm format (24-hour)
+# If not specified, checks will run immediately and then at regular intervals
+startTime: "8:00" # HH:mm (24-hour)
+
+# List of RSS feed paths to monitor
+# You can add multiple feed paths here
+feedPaths:
+  # Example: Add more feed paths like this:
+  - "/github/trending/weekly/typescript/"

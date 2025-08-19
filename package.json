@@ -1,0 +1,35 @@
+{
+  "name": "rss-tgbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "NODE_ENV=development tsx index.ts",
+    "dev:prod": "tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "dotenv": "^17.2.1",
+    "got": "^14.4.7",
+    "https-proxy-agent": "^7.0.6",
+    "js-yaml": "^4.1.0",
+    "node-cron": "^4.2.1",
+    "rss-parser": "^3.13.0",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/got": "^9.6.12",
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  }
+}
